@@ -50,6 +50,7 @@ std::string get_adtype_str(sz& t) {
 		case AD_TYPE_Si: return "Si";
 		case AD_TYPE_At: return "At";
 		case AD_TYPE_W : return "W";
+        case AD_TYPE_B : return "B";
 		default: VINA_CHECK(false);
 	}
 }
